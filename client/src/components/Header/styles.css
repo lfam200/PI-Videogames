@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display:grid;
+  align-items: center;
+  /* padding: 20px 0; */
+  position: fixed;
+  z-index:1;
+}
+
+header nav {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo {
+  width: 60%;
+  cursor: pointer;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main_header p {
+  margin-top:12px;
+  margin-bottom:10px;
+}
+
+.main_header select {
+  max-width: 250px;
+}
+
+.hidden {
+  color: black
+}

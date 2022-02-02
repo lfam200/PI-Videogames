@@ -1,0 +1,11 @@
+.notFound {
+  text-shadow: -2px 2px 0 #000;
+  margin-top: 100px
+}
+
+.notFound h1 {
+  font-size: 8rem;
+}
+.notFound h2 {
+  font-size: 3rem;
+}

@@ -1,0 +1,40 @@
+.videogame {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  padding: 20px;
+  background-color: hsl(0, 0%, 0%, 0.6);
+  border-radius:5px;
+  margin-bottom: 10px;
+}
+
+.videogame_detail * {
+  color: #fff;
+  text-align: left;
+  text-shadow: -2px 2px 0px #000;
+
+}
+
+.videogame_detail p {
+  line-height : 25px;
+}
+
+.videogame_title{
+  font-size: 24px;
+}
+
+.videogame_subtitle {
+  font-size: 18px;
+  margin: 30px 0 15px 0;
+}
+.videogame_img {
+  margin-left: 30px;
+}
+
+.videogame_img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.container button {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+.search_bar {
+  padding-right: 1px;
+  width: 100%;
+}
+.search_input{
+  height:36px;
+  width: 90%;
+  font-family: 'Press Start 2P', cursive;
+  padding-left:10px;
+}

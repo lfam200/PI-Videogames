@@ -1,0 +1,39 @@
+.card {
+  width: 250px;
+  height: 440px;
+  border: none;
+  border-radius:8px;
+  box-shadow: 1px 2px 3px;
+  overflow: hidden;
+  margin: 10px;
+  background: #151515  /* fallback for old browsers */
+}
+
+.image {
+  height: 60%;
+}
+
+.image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  color: #fff;
+  margin-top: 20px
+}
+
+.info h3 {
+  font-size: 15px;
+  padding: 0 15px;
+  line-height : 20px;
+}
+
+.info p {
+  margin: 15px auto;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+
+

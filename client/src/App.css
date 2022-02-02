@@ -1,0 +1,40 @@
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.button {
+  position: relative;
+  padding: 0.7em 2.2em;
+  outline: none;
+  border: 1px solid #303030;
+  background: #fdd100;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 0 #000;
+  font-size: 15px;
+  overflow: hidden;
+  /* transition: 0.2s; */
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 2px #e62310, 1px 1px 3px #009cda, 1px 1px 4px #e62310;
+  /* transition-delay: 0.6s; */
+}
+
+
+
+/* .button:active {
+  background: #ff1500;
+  background: linear-gradient(to top right, #ff1500, #009cda);
+  color: #bfbfbf;
+  box-shadow: 0 0 8px #e62310, 0 0 8px #009cda, 0 0 8px #e62310;
+  transition: 0.1s;
+} */
